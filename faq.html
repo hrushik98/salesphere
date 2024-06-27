@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SaleSphere FAQ</title>
+
+    <style>
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            margin: 20px;
+
+        }
+
+        .faq-container {
+
+            max-width: 800px;
+
+            margin: auto;
+
+        }
+
+        .faq-card {
+
+            border: 1px solid #ccc;
+
+            border-radius: 5px;
+
+            margin: 10px 0;
+
+            padding: 10px;
+
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+        }
+
+        .faq-question {
+
+            cursor: pointer;
+
+            margin: 0;
+
+            padding: 10px;
+
+            background: #f7f7f7;
+
+            border-radius: 5px;
+
+        }
+
+        .faq-answer {
+
+            display: none;
+
+            padding: 10px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="faq-container">
+
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq-card">
+
+            <h2 class="faq-question">1. What is SaleSphere?</h2>
+
+            <div class="faq-answer">
+
+                <p>With SaleSphere, you can create virtual agents for outbound or inbound calls. You can select human-like voices, write objectives and call instructions, and your AI agent is ready to make live calls.</p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-card">
+
+            <h2 class="faq-question">2. Can the AI voice agent make outbound voice calls?</h2>
+
+            <div class="faq-answer">
+
+                <p>Yes, the AI voice agent can easily make outbound calls. You can create outbound call campaigns with a CSV or directly import a list from your CRM. The AI agent is 100% autonomous and can perform real-time calls just like a real human.</p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-card">
+
+            <h2 class="faq-question">3. Can the AI agent receive phone calls?</h2>
+
+            <div class="faq-answer">
+
+                <p>Yes, your AI agent is fully capable of taking customer phone calls and engaging with humans.</p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-card">
+
+            <h2 class="faq-question">4. Can AI agents transfer a call to a live human agent?</h2>
+
+            <div class="faq-answer">
+
+                <p>Yes, with workflows, your AI agents can easily transfer a live call to a human agent.</p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-card">
+
+            <h2 class="faq-question">5. Can AI agents book demos and make outbound sales calls?</h2>
+
+            <div class="faq-answer">
+
+                <p>AI agents are highly capable of making prospecting calls and booking demos with available time slots. You can use workflows for booking demos as per your availability and time zones.</p>
+
+            </div>
+
+        </div>
+
+        <div class="faq-card">
+
+            <h2 class="faq-question">6. Do I need to write code?</h2>
+
+            <div class="faq-answer">
+
+                <p>No, not a single line. You just write the call objective and call instructions, select a voice, and you are ready to launch your campaign.</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+        document.querySelectorAll('.faq-question').forEach(question => {
+
+            question.addEventListener('click', () => {
+
+                const answer = question.nextElementSibling;
+
+                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+
+            });
+
+        });
+
+    </script>
+
+</body>
+
+</html>
